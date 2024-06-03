@@ -20,7 +20,7 @@ let n=arr.length;
 		  mid=(n-1)/2;
 		}
 		
-		console.log(mid);
+		
 			
 		let sum1=arr[0]+arr[1];
 		let sum2=arr[0]+arr[1];
@@ -35,7 +35,7 @@ let n=arr.length;
 		
 		if(mid>=n-2){
 		  sum2+=sum1+arr[n-1];
-		  console.log(sum2);
+		  
 		  return sum2;
 		}
 		else{
@@ -44,7 +44,7 @@ let n=arr.length;
 		    sum4+=sum3;
 		  }
 		  let sum=sum2+sum4+sum1+sum2;
-		  console.log(sum);
+		  
 		  return sum;
 		}
 		
